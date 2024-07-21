@@ -1,4 +1,7 @@
 package es.antonborri.home_widget_example.glance
 
-class HomeWidgetBusinessCardReceiver {
+import HomeWidgetGlanceWidgetReceiver
+
+class BusinessCardReceiver : HomeWidgetGlanceWidgetReceiver<BusinessCardAppWidget>() {
+    override val glanceAppWidget = BusinessCardAppWidget()
 }

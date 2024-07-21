@@ -1,7 +1,7 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:previewImage="@drawable/pre_img_business_card_qr"
-    android:targetCellHeight="3"
-    android:targetCellWidth="2"
-    android:resizeMode="none"
+    android:minWidth="203dp"
+    android:minHeight="90dp"
+    android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="10000">
 </appwidget-provider>

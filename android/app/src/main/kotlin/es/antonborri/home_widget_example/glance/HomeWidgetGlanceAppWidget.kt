@@ -61,8 +61,8 @@ class HomeWidgetGlanceAppWidget : GlanceAppWidget() {
             onClick = actionStartActivity<MainActivity>(context)).cornerRadius(16.dp).fillMaxSize()) {
             Box(modifier = GlanceModifier.background(Color(0xFFD5D5D5))
                 .padding(10.dp).cornerRadius(16.dp).fillMaxSize()) {
-                Image(provider = ImageProvider(es.antonborri.home_widget_example.R.drawable.qrcode), contentDescription = null),
-                
+                Image(provider = ImageProvider(es.antonborri.home_widget_example.R.drawable.qrcode),
+                    contentDescription = null)
             }
 //            Column(
 //                    modifier = GlanceModifier.fillMaxSize(),
